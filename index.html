@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contrato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Contate-nos</h1>
+            <label for="nome">Seu nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail...">
+            <label for="servicos">Serviços disponíveis</label>
+            <select name="servicos" id="servicos">
+                <option value="" hidden>Escolha o serviço</option>
+                <option value="">Lojas Online</option>
+                <option value="">eCommerce Bussiness</option>
+                <option value="">UI/UX Design</option>
+                <option value="">Serviços Online</option>
+            </select>
+            <label for="orcamento">Orçamento</label>
+            <select name="orcamento" id="orcamento">
+                <option value=""hidden>Selecione seu Orçamento</option>
+                <option value="">R$1.500,00</option>
+                <option value="">R$2.000,00</option>
+                <option value="">R$2.500,00</option>
+            </select>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+            <button type="submit">Enviar →</button>
+        </form>
+        <footer><h2>Criado por Jones Torres</h2></footer>
+    </main>
+</body>
+</html>
