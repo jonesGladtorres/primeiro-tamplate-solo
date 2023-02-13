@@ -51,6 +51,9 @@ body main form select{
     border: none;
     color: #666;
     outline: none; 
+    appearance: none;
+    border-bottom: 1px solid #666;
+    cursor: pointer;
 }
 body main form select option{
     background-color: transparent;
@@ -81,11 +84,11 @@ body main form button:hover{
 }
 body main footer{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 111%;
 }
 body main footer h2{
     font-family: 'Share Tech Mono', monospace;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
